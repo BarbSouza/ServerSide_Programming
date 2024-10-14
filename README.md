@@ -33,17 +33,17 @@ The examples and projects in this repository use the following technologies and 
 
 ## Installation
 -Node.js/Express:
-npm init
-npm install express
+- npm init
+- npm install express
 
 ## Usage
 For Node.js/Express:
 
-npm start
+- npm start
 Navigate to http://localhost:3000
 
 For MySQL
-npm install mysql
+- npm install mysql
 
 
 
