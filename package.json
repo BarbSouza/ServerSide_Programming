@@ -1,0 +1,15 @@
+{
+  "name": "serverside_programming",
+  "version": "1.0.0",
+  "description": "Welcome to the **Server-Side Programming** class repository! This repository contains code examples, assignments, and projects that cover key concepts in server-side development. The primary goal of this class is to teach fundamental and advanced techniques for building robust, scalable, and efficient server-side applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mysql2": "^3.11.3"
+  }
+}
