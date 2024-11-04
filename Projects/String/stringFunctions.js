@@ -87,3 +87,14 @@ const formattedEmail = validateEmail(userEmail);
 
 console.log(userEmail);
 console.log(formattedEmail);
+
+
+// Perform a value input dynamically from a variable reference
+
+let name = "Mike Tyson";
+let age = 60;
+
+//Create a String that can be formatted
+let formattedString = `My name is ${name} and I am ${age} years old`
+
+console.log(formattedString);
