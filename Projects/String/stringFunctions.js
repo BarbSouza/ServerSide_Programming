@@ -31,3 +31,23 @@ const manipulatedstory1 = originalStory.replace("quick", "slow");
 
 console.log(manipulatedstory);
 console.log(manipulatedstory1);
+
+//Function to validate email format
+
+function validateEmail(email){
+
+    const emailRegex = /^[a-zA-Z0-9._-]{2,}@[a-zA-Z0-9._-]{2,}\.[a-zA-Z]{2,}$/;
+
+    if(emailRegex.test(email)){
+        return email.toLowerCase();
+    } else {
+        return "Invalid email format!";
+    }
+}
+
+const userEmail = "John.Doe@example.com";
+
+const formattedEmail = validateEmail(userEmail);
+
+console.log(userEmail);
+console.log(formattedEmail);
